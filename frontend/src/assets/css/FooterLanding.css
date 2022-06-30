@@ -1,0 +1,51 @@
+.container-allFooter {
+    background: #F5F5F5;
+    color:#1d1a1a;
+    margin-top: 0 !important;
+    font-family: poppins, sans-serif;
+}
+
+.links ul li {
+    list-style: none;
+    font-family: poppins, sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.links ul li a {
+    color: #1d1a1a;
+    transition: color .2s;
+    text-decoration:none;
+}
+
+.links ul li a:hover {
+    text-decoration:none;
+    color:#3a4653;
+}
+
+.about-company p {
+    font-size: 16px;
+    color: #1d1a1a;
+    font-weight: 400;
+    text-align: left;
+}
+
+.about-company i {
+    font-size: 25px;
+    padding-right: 10px;
+}
+
+.about-company a {
+    color:#1d1a1a;
+    transition: color .2s;
+}
+
+.about-company a:hover {
+    color:#3a4653
+}
+
+.copyright p {
+    color: #1d1a1a;
+    border-top: 1px solid #1d1a1a2f;
+    text-align: left;
+}

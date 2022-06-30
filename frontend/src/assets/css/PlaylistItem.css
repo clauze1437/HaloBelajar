@@ -1,0 +1,29 @@
+.container-item-playlist {
+    color: #353535;
+    padding: 10px 20px;
+    margin: 0 0 10px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    position: relative;
+    font-size: 16px;
+    background: none;
+    border-radius: 0;
+}
+
+.video-number {
+    max-width: 30px;
+    padding-right: 15px;
+    color: #353535;
+  }
+
+.video-title, .video-title a {
+    flex-grow: 5;
+    padding: 0 0 0 5px;
+    color: #353535;
+    text-align: left;
+    text-decoration: none;
+    display: block;
+}

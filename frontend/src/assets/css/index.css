@@ -1,0 +1,147 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: montserrat, sans-serif;
+}
+
+.image {
+  padding-top: 20px;
+  margin-bottom: 30px;
+  margin-left: 100px;
+}
+
+input,
+button {
+  appearance: none;
+  background: none;
+  border: none;
+  outline: none;
+}
+
+.App {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fcfffe;
+}
+form {
+  display: block;
+  position: relative;
+}
+
+/* form:after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: -5px;
+    left: -5px;
+    right: -5px;
+    bottom: -5px;
+    z-index: 1;
+    background-image: linear-gradient(to bottom right, rgb(11, 11, 11), #f4f0f1);
+  } */
+
+form .form-inner {
+  position: relative;
+  z-index: 2;
+  display: block;
+  background-color: #fff;
+  padding: 30px;
+}
+
+form .form-inner h1 {
+  font-weight: bolder;
+  font-size: 25px;
+  margin-bottom: 50px;
+}
+
+form .form-inner h2 {
+  color: #888;
+  font-size: 28px;
+  font-weight: 500;
+  margin-bottom: 30px;
+}
+
+form .form-inner .form-group {
+  display: block;
+  width: 300px;
+  margin-bottom: 15px;
+}
+
+.form-inner .form-group label {
+  display: block;
+  color: rgb(9, 9, 9);
+  font-size: 12px;
+  transition: 0.4s;
+  margin-bottom: 5px;
+}
+
+.form-inner .form-group input {
+  color: #0c0c0c;
+}
+
+form .form-inner .form-group input:focus {
+  box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.2);
+}
+
+form .form-inner .form-group input {
+  display: block;
+  width: 100%;
+  padding: 10px 15px;
+  background-color: #f8f8f8;
+  border-radius: 28px;
+  transition: 0.4s;
+}
+form .form-inner input[type="submit"],
+.welcome button {
+  display: inline-block;
+  padding: 10px 15px;
+  border-radius: 8px;
+  background-image: linear-gradient(to right, #666565 50%, #fff 50%, rgb(12, 11, 11) 50%);
+  background-color: #0c0c0c;
+  background-size: 200%;
+  background-position: 0%;
+  transition: 0.4s;
+  color: #fff;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+form .form-inner input[type="submit"]:hover,
+.welcome button:hover {
+  background-position: 100% 0%;
+}
+
+.welcome {
+  width: 100%;
+  max-width: 480px;
+  background-color: #fff;
+  padding: 15px, 30px;
+}
+
+.welcome h2 {
+  color: #888;
+  font-size: 28px;
+  font-weight: 500;
+  margin-bottom: 30px;
+}
+
+.welcome h2 span {
+  color: #0f0e0e;
+  font-weight: 700;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: rgb(7, 7, 7);
+  color: rgb(10, 10, 10);
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}

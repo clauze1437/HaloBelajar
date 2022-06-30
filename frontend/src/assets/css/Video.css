@@ -1,0 +1,33 @@
+.container-video {
+    position: relative;
+    -webkit-box-flex: 2;
+    -ms-flex: 2 0 600px;
+    flex: 2 0 600px;
+    color: white;
+    margin-right: 10px;
+}
+
+.video-title-in-vid {
+    color: #353535;
+    font-size: 22px;
+    margin-top: 25px;
+}
+
+.video-desc-in-vid {
+    color: #353535;
+    font-size: 18px;
+    text-align: left;
+}
+
+.frame-video {
+    width: 100%;
+    padding-bottom: 50%;
+    position: relative;
+}
+
+@media screen and (max-width: 1400px) {
+    .container-video {
+        width: 100%;
+        display: block;
+    }
+}
