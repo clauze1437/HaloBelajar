@@ -1,0 +1,30 @@
+.container-playlist {
+    -webkit-box-flex: 1;
+    -ms-flex: 1 1 300px;
+    flex: 1 1 300px;
+    overflow: hidden;
+    color: white;
+}
+
+.header-playlist {
+    font-weight: 600;
+    color: #696969;
+    padding: 0 20px;
+    margin: 0 0 20px 0;
+    min-height: 80px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-direction: row;
+    align-items: left;
+    justify-content: space-between;
+    border-radius: 20px;
+    font-size: 22px;
+}
+
+@media screen and (max-width: 1400px) {
+    .container-playlist {
+        width: 100%;
+        display: block;
+    }
+}

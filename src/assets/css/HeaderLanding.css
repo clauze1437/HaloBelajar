@@ -1,0 +1,100 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.logo-nav {
+    float: left;
+    padding-left: 50px;
+    height: 40px;
+}
+
+.menu-nav {
+    list-style: none;
+    float: left;
+    padding-right: 50px;
+}
+
+.menu-nav li {
+    display: inline-block;
+    padding-left: 30px;
+    font-size: 15px;
+    font-family: poppins, sans-serif;
+}
+
+.menu-nav a {
+    text-decoration: none;
+    color: white;
+}
+
+.container-header {
+    height: 100%;
+    width: 100%;
+}
+
+.content-header {
+    background-image: url("../images/background-header-1b.JPG");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr));
+    justify-content: center;
+    align-items: center;
+    gap: 0;
+    margin-top: 0;
+    min-height: calc(100vh);
+    font-family: poppins, sans-serif;
+}
+
+.content-header article {
+    text-align: center;
+    display: grid;
+    gap: 0.6em;
+    padding: 5em 0em 3em 7em;
+    max-width: 40rem;
+    margin: 0 auto;
+}
+
+.content-header article h1 {
+    margin: 1em 0 0;
+    font-size: 2.8rem;
+    line-height: 1em;
+    color: #fff;
+    filter: drop-shadow(0px 1px 10px rgba(0, 0, 0, 0.801));
+    font-weight: 500;
+}
+
+.content-header article p {
+    line-height: 1.4;
+    color: #fff;
+    font-weight: 300;
+}
+
+.content-header article button {
+    width: max-content;
+    margin: auto;
+    border: 0;
+    border-radius: 4rem;
+    padding: 0.8em 2.7em;
+    height: max-content;
+    text-transform: capitalize;
+    font-size: 10pt;
+    font-weight: bold;
+    cursor: pointer;
+    color: #a6ccd1;
+    background-color: #161615;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.801);
+
+}
+
+.content-header article button:hover {
+    background-color: #FFFFFF;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.801);
+}
+
+.logo-header {
+    margin: 5em 7em 0 auto;
+    width: 400px;
+    filter: drop-shadow(0px 1px 10px rgba(0, 0, 0, 0.801));
+}

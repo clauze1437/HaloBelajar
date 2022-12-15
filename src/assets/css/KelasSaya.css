@@ -1,0 +1,80 @@
+.container-all-kelas-2 {
+    min-height: calc(100vh);
+    background-color: #E4EEF7;
+}
+
+.container-all-kelas-2 {
+    box-sizing: border-box;
+    display: flex;
+}
+
+.container-all-kelas {
+    margin-top: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    font-family: poppins, sans-serif;
+    margin-left: 200px;
+  }
+  
+  .container-all-kelas h1 {
+    margin-top: 100px;
+    font-family: poppins, sans-serif;
+    text-align: center;
+    color: #151516;
+    font-size: 24pt;
+  }
+  
+  .container-kelas {
+    margin: 30px 70px 70px 70px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 20px;
+  }
+
+  :link {
+    text-decoration: none;
+  }
+  
+  .container-kelas .card-kelas {
+    position: relative;
+    width: 300px;
+    margin: 0 auto;
+    background: #151516;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+    overflow: hidden;
+    border-radius: 15px;
+  }
+  
+  .container-kelas .card-kelas .content-kelas {
+    position: relative;
+    z-index: 2;
+  }
+  .container-kelas .card-kelas .content-kelas p {
+    padding-top: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 16px;
+    font-weight: 280;
+    line-height: 24px;
+    color: #fff;
+  }
+  .container-kelas .card-kelas .content-kelas .image {
+    width: 250px;
+    height: 150px;
+    margin: 10px auto;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  }
+  .container-kelas .card-kelas .content-kelas .details-kelas h2 {
+    font-size: 20px;
+    color: #fff;
+  }
+  .container-kelas .card-kelas .content-kelas .details-kelas h2 span {
+    color: #c0d4dd;
+    font-size: 14px;
+  }
+  

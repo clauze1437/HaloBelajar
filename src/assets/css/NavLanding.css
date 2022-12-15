@@ -1,0 +1,16 @@
+#nav-1 {
+    background-color: rgba(0, 0, 0, 0.322);
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.493);
+    color: #fff;
+}
+
+#collasible-nav-dropdown, #login:link, #sign-up:link, #login:visited, #sign-up:visited {
+    font-size: 15px;
+    font-family: poppins, sans-serif;
+    color: #fff;
+}
+
+#login:hover, #sign-up:hover {
+    /* text-decoration: none; */
+    color: #a6ccd1;
+}
